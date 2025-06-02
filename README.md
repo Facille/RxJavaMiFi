@@ -12,19 +12,32 @@
 - ✅ Полное покрытие юнит-тестами
 
 ## Структура проекта
-src/
-├── main/java/com/example/rxjava/
-│ ├── core/ # Базовые компоненты
-│ │ ├── Observer.java
-│ │ ├── Observable.java
-│ │ ├── Disposable.java
-│ │ └── Scheduler.java
-│ ├── functions/ # Функциональные интерфейсы
-│ ├── operators/ # Операторы преобразования
-│ └── schedulers/ # Реализации Scheduler
-├── test/java/com/example/rxjava/ # Юнит-тесты
-└── Main.java # Пример использования
-
+```
+RxJava/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── rxjava/
+│   │   │               ├── core/               
+│   │   │               ├── functions/            
+│   │   │               ├── operators/               
+│   │   │               ├── schedulers/               
+│   │   │               ├── Main.java             
+│   │   │                          
+│   │   │                      
+│   │   
+│   └── test/
+│   │   ├── java/                            
+│   │       └── example/
+│   │           └── com/
+│   │               └── rxjava
+│   │                   ├──ObservableTest.java
+│   │                   ├──OperatorTest.java
+│   │                   ├──SchedulerTest.java
+└── pom.xml 
+```
 
 ## Примеры использования
 
