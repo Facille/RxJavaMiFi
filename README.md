@@ -17,16 +17,16 @@ RxJava/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── rxjava/
-│   │   │               ├── core/               
-│   │   │               ├── functions/            
-│   │   │               ├── operators/               
-│   │   │               ├── schedulers/               
-│   │   │               ├── Main.java             
-│   │   │                          
-│   │   │                      
+│   │       └── com/
+│   │           └── example/
+│   │               └── rxjava/
+│   │                   ├── core/               
+│   │                   ├── functions/            
+│   │                   ├── operators/               
+│   │                   ├── schedulers/               
+│   │                   ├── Main.java             
+│   │                             
+│   │                         
 │   │   
 │   └── test/
 │   │   ├── java/                            
